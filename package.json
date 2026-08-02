@@ -1,0 +1,42 @@
+{
+  "name": "imagerouter",
+  "version": "1.0.0",
+  "description": "Local image-generation router for MCP clients and developer tools",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node server/http/start.mjs --dev",
+    "build": "next build --webpack",
+    "start": "node server/http/start.mjs",
+    "lint": "eslint .",
+    "test": "node --test --test-concurrency=1 tests/unit/**/*.test.mjs tests/integration/**/*.test.mjs",
+    "test:unit": "node --test --test-concurrency=1 tests/unit/**/*.test.mjs",
+    "test:integration": "node --test --test-concurrency=1 tests/integration/**/*.test.mjs",
+    "check": "npm run lint && npm test && npm run build",
+    "test:e2e": "playwright test",
+    "test:smoke": "node --test --test-concurrency=1 tests/smoke/**/*.test.mjs",
+    "prompts:release": "node tools/build-prompt-snapshots.mjs",
+    "mcp:stdio": "node server/mcp/stdio.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "better-sqlite3": "12.6.2",
+    "lucide-react": "0.468.0",
+    "next": "16.2.12",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zod": "4.4.3"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
+    "@playwright/test": "1.55.1",
+    "@tailwindcss/postcss": "4.1.18",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.2.12",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.18"
+  }
+}

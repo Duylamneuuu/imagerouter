@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "release": "ImageRouter Prompt Intelligence v1",
+  "updatedAt": "2026-08-02T07:43:40.451Z",
+  "packs": [
+    {
+      "id": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "sourceRepo": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill",
+      "galleryRepo": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "sourceCommit": "aaaf046fab343c5a0cf3bb90298b74d09f369243",
+      "fetchedAt": "2026-08-02T07:43:40.451Z",
+      "file": "nano-banana-pro.json.gz",
+      "format": "json.gz",
+      "count": 21758,
+      "sourceCount": 21758,
+      "sha256": "3b2dc58102102a9281be05c2881d8ab8aade91b16366ea542c83399e9806d55b",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Prompts curated from the open community by YouMind.com.",
+      "model": "nano-banana-pro"
+    },
+    {
+      "id": "gpt-image-2",
+      "name": "GPT Image 2",
+      "sourceRepo": "https://github.com/YouMind-OpenLab/gpt-image-2-prompts-search",
+      "galleryRepo": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "sourceCommit": "32bfbf79453e412532de5a6e100bbd9d77bf5a45",
+      "fetchedAt": "2026-08-02T07:43:40.451Z",
+      "file": "gpt-image-2.json.gz",
+      "format": "json.gz",
+      "count": 22583,
+      "sourceCount": 22583,
+      "sha256": "a2aa8a40ee2b4d1c3da18d0bc4f000002ed1afdcaee176852280241cc174ad13",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Prompts curated from the open community by YouMind.com.",
+      "model": "gpt-image-2"
+    }
+  ]
+}
