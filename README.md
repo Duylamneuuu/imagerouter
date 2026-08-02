@@ -25,6 +25,23 @@ Image 2 collections. ImageRouter never downloads or updates prompt packs at
 runtime. If a release is built without its snapshots, raw generation and
 LLM-only enhancement still work and the Prompts screen reports pack setup.
 
+## Dashboard preview
+
+The local workbench makes the control plane visible without exposing provider
+credentials or prompt history.
+
+<p align="center">
+  <img src="./public/screenshots/overview.png" alt="ImageRouter Overview dashboard" width="960" />
+</p>
+
+<p align="center"><em>Overview: MCP health, route order, setup snippets and local prompt-index status.</em></p>
+
+<p align="center">
+  <img src="./public/screenshots/prompts.png" alt="ImageRouter local prompt library" width="960" />
+</p>
+
+<p align="center"><em>Prompt library: release-pinned local packs with provenance and on-demand search.</em></p>
+
 ## Requirements
 
 - Node.js 20 or newer.
